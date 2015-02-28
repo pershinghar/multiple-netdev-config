@@ -7,7 +7,8 @@ usage: run-commands.py [-h] -d DEVICES -c CMDS -u USER [-p PASS] [-k KEY] [-e]
         
 	    ./run-commands.py -d "123.234.56.7,10.2.3.4" -c "./cmds.txt" -u admin -p password
 
-arguments:
+### arguments:
+```  
   -h, --help            show this help message and exit
   -d DEVICES, --devs DEVICES
                         Devices which we send commands to, divided by commas, example: "10.1.2.3,10.2.3.4"
@@ -17,5 +18,6 @@ arguments:
   -k KEY, --key KEY     Key used to ssh login (when no pass specified)
   -e, --enb             Use enable command <not implemented yet>
   --debug               debug mode
+```
 
 This script is still in development, I'm willing to hear feedback - any requests, tips, questions.
