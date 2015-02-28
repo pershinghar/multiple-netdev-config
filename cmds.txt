@@ -1,0 +1,14 @@
+conf t
+no ntp access-group serve 1300
+no ntp access-group peer 1300
+no access-list 1300
+
+access-list 1300 remark "allow marge"
+access-list 1300 permit 10.0.9.1
+access-list 1300 deny any
+
+access-list 1301 remark "deny all"
+access-list 1301 deny any
+
+ntp access-group serve 1301
+ntp access-group peer 1300
