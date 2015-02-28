@@ -1,5 +1,5 @@
 # multiple-netdev-config
-Remotely run commands on multiple cisco/dell/force10/juniper/... devices
+Remotely run commands on multiple cisco/dell/force10/juniper/... devices through SSH
 
 usage: run-commands.py [-h] -d DEVICES -c CMDS -u USER [-p PASS] [-k KEY] [-e]
                        [--debug]
