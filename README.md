@@ -1,4 +1,7 @@
 # multiple-netdev-config
+
+## This is old and deprecated script. No longer developed.
+
 Remotely run commands on multiple cisco/dell/force10/juniper/... devices through SSH
 
 usage: run-commands.py [-h] -d DEVICES -c CMDS -u USER [-p PASS] [-k KEY] [-e]
